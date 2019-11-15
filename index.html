@@ -41,7 +41,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 	<!-- banner -->
-	<div id="home" class="w3ls-banner">
+	<div id="home" class="florentine-banner">
 
 		<!-- banner-text -->
 		<div class="slider">
@@ -53,9 +53,9 @@
 								<div class="agileits-banner-info">
 									<h3>Let's <span>Explore</span></h3>
 									<p>FLORENTINE CRAFTS PRIVATE LIMITED</p>
-									<div class="agileits_florentine_more menu__item">
+									<!-- <div class="agileits_florentine_more menu__item">
 										<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -66,9 +66,9 @@
 								<div class="agileits-banner-info">
 									<h3>Let's <span>Explore</span></h3>
 									<p>FLORENTINE CRAFTS PRIVATE LIMITED</p>
-									<div class="agileits_florentine_more menu__item">
+									<!-- <div class="agileits_florentine_more menu__item">
 										<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -79,9 +79,9 @@
 								<div class="agileits-banner-info">
 									<h3>Let's <span>Explore</h3>
 									<p>FLORENTINE CRAFTS PRIVATE LIMITED</p>
-									<div class="agileits_florentine_more menu__item">
+									<!-- <div class="agileits_florentine_more menu__item">
 										<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
-									</div>
+									</div> -->
 								</div>
 
 							</div>
@@ -99,6 +99,9 @@
 			</a>
 		</div>
 		<!-- header -->
+		<script>
+			$(document).on('click', "")
+		</script>
 		<div class="header-florentine">
 			<!-- Navigation -->
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -111,9 +114,8 @@
 							<span class="icon-bar"></span>
 						</button>
 						<h1>
-							<!-- <a class="navbar-brand" href="index.html">florentinecrafts</a> -->
-							<img class="d-none d-md-block" src="images/florentine/white-logo.png" alt="Florentine Crafts"
-								height="100">
+							<a class="navbar-brand" href="index.html">florentinecrafts</a>
+							<!-- <img class="d-none d-md-block" src="images/florentine/white-logo.png" alt="Florentine Crafts" height="100"> -->
 						</h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -152,9 +154,9 @@
 					wallets, bags and small leather goods. We’re committed to designing, crafting and assembling the best
 					merchandise on the market. We work with only thefinest leather and sustainable products also as our raw
 					materials, including textiles, metal hardware and accessories, conform to international quality standards.</p>
-				<div class="agileits_florentine_more menu__item one">
+				<!-- <div class="agileits_florentine_more menu__item one">
 					<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
-				</div>
+				</div> -->
 			</div>
 			<div class="ab-w3-agile-inner">
 				<div class="col-md-6 ab-w3-agile-part">
@@ -180,13 +182,13 @@
 	<!-- //about -->
 
 	<!-- Modal1 -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" style="top: 35px;">
 		<div class="modal-dialog">
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<img src="images/1." alt=" " class="img-responsive">
+					<img src="images/1.jpg" alt=" " class="img-responsive">
 					<h5>Donec lobortis pharetra dolor</h5>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
 						industry's standard dummy text ever since the 1500s, rds which don't look even slightly believable..</p>
@@ -200,14 +202,18 @@
 	<div class="container priceing-table-grids" id="key_feature" style="margin-top: 20px;">
 		<div class="clearfix"></div>
 			<h3 class="title-w3">Why Us</h3>
-			<p class="sub-text">Our Key Features</p>
+			<p class="sub-text" style="margin-bottom: 5%">Our Key Features</p>
 			<div class="row">
+
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img class="m-3" src="images/icons/buying.svg" style="color: #a3816a;" height="50" /></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Wide Product Basket</h3>
-							<p>Ever changing and diversified product basket, pioneering an extensive range of fashion accessories such
+						<div class="row">
+							<div class="col-xs-2 col-md-2"><img src="images/icons/buying.svg" style="color: #a3816a;" height="50" /></div>
+							<div class="col-xs-10 col-md-10"><h3 class="media-body-heading">Wide Product Basket</h3></div>
+						</div>
+						<div class="media-body">							
+							<p class="media-body-desc">
+								Ever changing and diversified product basket, pioneering an extensive range of fashion accessories such
 								as high qualпy leather handbags, leather belts, small leather goods, travel bags and leather accessories.
 							</p>
 						</div>
@@ -215,23 +221,27 @@
 				</div>
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img class="m-3" src="images/icons/quality.svg" style="color: #a3816a;" height="50" /></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Quality</h3>
-							<p>
+						<div class="row">
+							<div  class="col-xs-2 col-md-2"><img src="images/icons/quality.svg" style="color: #a3816a;" height="50" /></div>
+							<div class=" col-xs-10 col-md-10"><h3 class="media-body-heading">Quality</h3></div>
+						</div>
+						<div class="media-body">							
+							<p class="media-body-desc">
 								Specialized imported machinery & stringent quality control measures ensure excellent product quality &
 								widens the competitive edge
 							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img class="m-3" src="images/icons/thinking.svg" style="color: #a3816a;" height="50" />
+						<div class="row">
+							<div  class="col-xs-2 col-md-2"><img src="images/icons/thinking.svg" style="color: #a3816a;" height="50" /></div>
+							<div class=" col-xs-10 col-md-10"><h3 class="media-body-heading">Research</h3></div>
 						</div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Research</h3>
-							<p>
+						<div class="media-body">							
+							<p class="media-body-desc">
 								Research is the foundation of any collection. Our R&D team source and develop the latest
 								materials/leather, trims, finishes and trends ahead of the market to provide customers with quality
 								products in their desired price.
@@ -239,16 +249,18 @@
 						</div>
 					</div>
 				</div>
+				
 			</div>
+
 			<div class="row">
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-						<div class="icon">
-							<img class="m-3" src="images/icons/compass.svg" style="color: #a3816a;" height="50" />							
+						<div class="row">
+							<div  class="col-xs-2 col-md-2"><img src="images/icons/compass.svg" style="color: #a3816a;" height="50" /></div>
+							<div class=" col-xs-10 col-md-10"><h3 class="media-body-heading">Development</h3></div>
 						</div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Development</h3>
-							<p>
+						<div class="media-body">							
+							<p class="media-body-desc">
 								Our QC Teams ensure that samples are created and developed safely according to customers’ product
 								required specification
 							</p>
@@ -257,11 +269,12 @@
 				</div>
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img class="m-3" src="images/icons/manufacturing.svg" style="color: #a3816a;"
-								height="50" /></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Manufacturing</h3>
-							<p>
+						<div class="row">
+							<div class="col-xs-2 col-md-2"><img src="images/icons/manufacturing.svg" style="color: #a3816a;" height="50" /></div>
+							<div class=" col-xs-10 col-md-10"><h3 class="media-body-heading">Manufacturing</h3></div>
+						</div>
+						<div class="media-body">							
+							<p class="media-body-desc">
 								Expansion of capacities to address the increase in outsourcing activities even during the downturn.
 							</p>
 						</div>
@@ -269,12 +282,12 @@
 				</div>
 				<div class="col-md-4">
 					<div class="media block-6 services d-block ftco-animate">
-
-						<div class="icon"><img class="m-3" src="images/icons/backward.svg" style="color: #a3816a;" height="50" />
+						<div class="row">
+							<div class="col-xs-2 col-md-2"><img src="images/icons/backward.svg" style="color: #a3816a;" height="50" /></div>
+							<div class=" col-xs-10 col-md-10"><h3 class="media-body-heading">Backward Integration</h3></div>
 						</div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Backward Integration</h3>
-							<p>
+						<div class="media-body">							
+							<p class="media-body-desc">
 								Finishing unit in Kanpur and agreement with Italian Chemical manufacturers for import of chemicals
 								ensure greater operational control.
 							</p>
@@ -536,6 +549,7 @@
 		<h3 class="title-w3">Photo Gallery</h3>
 		<p class="sub-text">Choose Your Style</p>
 		<div class="gallery-grids carouselGallery-grid hidden-xs">
+			
 			<div class="col-md-4 gallery-grid">
 				<div class="carouselGallery-col-1 carouselGallery-carousel" data-likes="3144" data-index="0" data-username=" "
 					data-imagetext="At vero eos et accusamus et iusto odio 
@@ -553,6 +567,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="col-md-4 gallery-grid">
 				<div class="carouselGallery-col-1 carouselGallery-carousel" data-likes="3144" data-index="1" data-username=" "
 					data-imagetext="Occaecati at vero eos et accusamus et iusto odio 
@@ -1012,16 +1027,12 @@
 					<ul class="rslides" id="slider3">
 						<li>
 							<div class="agileits-clients">
-
 								<div class=" client_agile_info">
-
 									<div class="c-img"><i class="fa fa-quote-right"></i> </div>
 									<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
 										consequatur aut perferendis doloribus asperiores repellat.</p>
 									<h4><img src="images/m1.jpg" alt="">Alice Lengthorn</h4>
-
 								</div>
-
 							</div>
 						</li>
 						<li>
@@ -1132,7 +1143,7 @@
 
 	<!-- footer -->
 	<div class="copy-right">
-		<p>&copy; 2019 Florentine Crafts Private Limited. All rights reserveds></p>
+		<p>&copy; 2019 Florentine Crafts Private Limited. All rights reserved</p>
 	</div>
 	<!-- //footer -->
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -1262,6 +1273,11 @@
 	<!-- //here ends scrolling icon -->
 	<script src="js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
+	<script>
+		$(document).on('click',function(){
+			$('.collapse').collapse('hide');
+		})
+	</script> 
 </body>
 
 </html>
