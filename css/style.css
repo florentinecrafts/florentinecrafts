@@ -107,7 +107,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 	position:relative;
 }
 .agileits_florentine_more a{
-	    font-size: 17px;
+	font-size: 17px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 	min-height:780px;
 }
 .florentine-banner-top1{
-	background: url(../images/2.png) no-repeat 0px 0px;
+	background: url(../images/2.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -169,7 +169,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 	min-height:780px;
 }
 .florentine-banner-top2{
-	background: url(../images/3.png) no-repeat 0px 0px;
+	background: url(../images/3.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
