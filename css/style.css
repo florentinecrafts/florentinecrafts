@@ -177,6 +177,25 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 	-moz-background-size: cover;	
 	min-height:780px;
 }
+.florentine-banner-top3{
+	background: url(../images/4.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;	
+	min-height:780px;
+}
+
+.florentine-banner-top4{
+	background: url(../images/5.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;	
+	min-height:780px;
+}
 
 /*-- //banner-top --*/ 
 /*--slider--*/
