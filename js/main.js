@@ -10,7 +10,7 @@ jQuery(function($) {
         curIndex === 0 && $('.carouselGallery-left').addClass('disabled');
     }
     $('.carouselGallery-carousel').on('click', function(e){
-        scrollTo = $('body').scrollTop();
+        // scrollTo = $('body').scrollTop();
        $('body').addClass('noscroll');
        $('body').css('position', 'fixed');
         $('.carouselGallery-col-1, .carouselGallery-col-2').removeClass('active');
@@ -87,7 +87,7 @@ jQuery(function($) {
         $('body').find('.carouselGallery-wrapper').remove();
         $('body').removeClass('noscroll');
         $('body').css('position', 'static');
-        $('body').animate({scrollTop: scrollTo}, 0);
+        // $('body').animate({scrollTop: scrollTo}, 0);
     };
 
     // Avoid break on small devices
