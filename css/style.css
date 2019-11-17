@@ -551,19 +551,22 @@ p.sub-text.one {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+.services{
+	margin-top: 10px;
+}
 .caption{
   display:none;	
 }
 .class-grid-img:hover .caption{
 	 display:block;
 	 position:absolute;
-	 top:45%;
-	 left:30%;
+	 top:5%;
+	 left:5%;
 	 z-index:999;
 	 
 }
 .caption h5{
-	font-size:2em;
+	font-size:1em;
 	color:#fff;
 	letter-spacing:2px;
 }
@@ -2042,7 +2045,7 @@ section.social ul li {
 		line-height: 2em;
 	}
 	.caption h5 {
-		font-size: 1.4em;
+		font-size: 1em;
 		letter-spacing: 2px;
 	}
 	.price-grid {
@@ -2288,8 +2291,8 @@ section.social ul li {
 	.class-grid-img:hover .caption {
 		display: block;
 		position: absolute;
-		top: 45%;
-		left: 25%;
+		top: 5%;
+		left: 5%;
 		z-index: 999;
 	}
 	.modal-content h5 {
@@ -2344,8 +2347,8 @@ section.social ul li {
 	.class-grid-img:hover .caption {
 		display: block;
 		position: absolute;
-		top: 45%;
-		left: 25%;
+		top: 5%;
+		left: 5%;
 	}
 	.class-grid h4 {
 		font-size: 1em;
