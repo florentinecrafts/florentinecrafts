@@ -264,6 +264,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
     .carouselGallery-modal .container{
         padding-right: 0;
         width: 100%;
+        top: 25px;
     }
     .carouselGallery-modal-image{
         width: 100%;

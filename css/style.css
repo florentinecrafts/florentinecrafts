@@ -408,7 +408,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-      min-height: 750px;
+    min-height: 750px;
     padding-top: 3em;
 	float:right;
 }
@@ -2262,7 +2262,7 @@ section.social ul li {
 		padding: 2em 1em;
 	}
 	.ab-w3-agile-img {
-		min-height: 291px;
+		min-height: 100vh;
 		padding-top: 0;
 		float: none;
 		width: 100%;
