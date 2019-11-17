@@ -569,6 +569,8 @@ p.sub-text.one {
 	font-size:1em;
 	color:#fff;
 	letter-spacing:2px;
+	font-family: Arapey, serif; 
+	letter-spacing: 2px;
 }
 .class-grid h4 {
     font-size: 1.4em;
