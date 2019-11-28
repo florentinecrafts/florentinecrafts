@@ -5,10 +5,10 @@ Author URL: http://florentine.com
 
 .view_more_btn{
 	padding: 13px 30px;
-    border: 2px solid #FFCC00;
+    border: 2px solid #E1AD01;
     font-size: 16px;
     color: #fff;
-    background: #FFCC00;
+    background: #E1AD01;
     text-decoration: none;
     outline: none;
     transition: 0.5s all;
@@ -78,10 +78,10 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color:#fff;
-    background-color:#FFCC00;
+    background-color:#E1AD01;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #FFCC00;
+    color: #E1AD01;
     background-color: transparent;
 }
 nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
@@ -104,7 +104,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     font-weight: 400;
 }
 .agileits-banner-info h3 span{
-	    background: #FFCC00;
+	    background: #E1AD01;
     padding: 0 15px;
 }
 .agileits-banner-info {
@@ -112,7 +112,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     padding:22em 0 0em;
 }
 .agileits-banner-info p {
-    color: #FFCC00;
+    color: #E1AD01;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 10px;
@@ -163,7 +163,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     transition-delay: 0s;
 }
 .agileits_florentine_more a::after {
-    background:#FFCC00;
+    background:#E1AD01;
 }
 /*-- //banner-text --*/
 /*-- banner-top --*/
@@ -385,7 +385,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     -ms-border-radius: 50%;
 }
 .callbacks_here a:after{
-       background: #FFCC00;
+       background: #E1AD01;
     border:3px solid #ffffff;
 }
 /*-- //slider --*/
@@ -401,7 +401,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     z-index: 99;
 }
 .thim-click-to-bottom i {
-    color: #FFCC00;
+    color: #E1AD01;
     padding: 22px 13px;
     border: 2px dashed #fff;
     border-radius: 20px;
@@ -455,7 +455,7 @@ p.sub-text.one {
 }
 .ab-w3-agile-part {
     padding: 0;
-    background: #FFCC00;
+    background: #E1AD01;
     padding: 4.7em 3em;
 }
 .ab-w3-agile-part h4 {
@@ -473,7 +473,7 @@ p.sub-text.one {
     color: #fff;
 }
 .agileits_florentine_more.menu__item.one a {
-    color: #FFCC00;
+    color: #E1AD01;
     margin-top: 1em;
 }
 .agileits_florentine_more.menu__item.one a:before,.agileits_florentine_more.menu__item.one a:after {
@@ -548,7 +548,7 @@ p.sub-text.one {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #FFCC00;
+  background: #E1AD01;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -696,7 +696,7 @@ h3.tittle.two {
 	text-align: center;
 }
 .client_agile_info {
-  border-bottom: 5px solid #FFCC00;
+  border-bottom: 5px solid #E1AD01;
     background: rgba(12, 12, 12, 0.61);
     padding: 2em;
 }
@@ -805,7 +805,7 @@ h3.tittle.two {
   background: #1a4a72;
 }
 .ih-item.circle.effect10 .info {
-      background: #FFCC00;
+      background: #E1AD01;
     opacity: 0;
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1041,7 +1041,7 @@ h6.bed.four{
 p.sub-text {
     text-align: center;
     letter-spacing: 9px;
-    color: #FFCC00;
+    color: #E1AD01;
 }
 h3.title-w3 {
     text-align: center;
@@ -1097,10 +1097,10 @@ form.contact_form {
 .contact_form input[type="submit"]{
 	
     padding: 13px 30px;
-    border: 2px solid #FFCC00;
+    border: 2px solid #E1AD01;
     font-size: 16px;
     color: #fff;
-    background: #FFCC00;
+    background: #E1AD01;
     text-decoration: none;
     outline: none;
     transition: 0.5s all;
@@ -1151,7 +1151,7 @@ form.contact_form {
        float: right;
     width: 50%;
     padding: 5em 2em;
-    background: #FFCC00;
+    background: #E1AD01;
 }
 .cont-top a {
     color: #fff !important;
@@ -1271,7 +1271,7 @@ section.social ul li {
 /*-- /model --*/
 .modal-content h5 {
     font-size: 2em;
-    color: #FFCC00;
+    color: #E1AD01;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 1em;
@@ -1336,7 +1336,7 @@ section.social ul li {
     -ms-transition: 0.5s all;
 }
 .book-form input[type=submit]:hover {
-      background:#FFCC00;
+      background:#E1AD01;
     color: #fff;
 }
 .check-box input[type="checkbox"]+label {
@@ -1378,7 +1378,7 @@ section.social ul li {
 /*-- /copyrights end here --*/
 .copy-right {
     padding: 1em 0;
-  background: #FFCC00;
+  background: #E1AD01;
     text-align: center;
 }
 .copy-right  p {

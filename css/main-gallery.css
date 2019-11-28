@@ -86,7 +86,7 @@
     position: absolute;
     padding: 25px 10px;
     padding-right: 15px;
-       color:#FFCC00;
+       color:#E1AD01;
     bottom: -100px;
     font-size: 2em;
     transition: bottom 0.2s;
@@ -219,9 +219,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 .carouselGallery-modal-location{
     margin-top: -3px;
     font-size: 24px;
-    color:#FFCC00;
-}
-.carouselGallery-item-modal-likes{
+    color:#E1AD01arouselGallery-item-modal-likes{
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 20px;
