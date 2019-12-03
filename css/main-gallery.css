@@ -209,7 +209,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
     width: 335px;
     height: 100%;
 }
-.carouselGallery-modal-text:hover { // ie10 transform glitch fix
+.carouselGallery-modal-text:hover {
     background-color: #fffffe;
 }
 .carouselGallery-modal-image img{
@@ -219,7 +219,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 .carouselGallery-modal-location{
     margin-top: -3px;
     font-size: 24px;
-    color:#E1AD01arouselGallery-item-modal-likes{
+    color:#E1AD01;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 20px;
