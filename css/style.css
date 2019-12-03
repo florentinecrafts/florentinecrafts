@@ -3,6 +3,10 @@ Author: florentine
 Author URL: http://florentine.com
 --*/
 
+.follow-container{
+	margin: 0.6em;
+}
+
 #view_more_div{
 	padding: 8em;
 }
