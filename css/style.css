@@ -434,7 +434,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 750px;
+    min-height: 725px;
     padding-top: 3em;
 	float:right;
 }
@@ -455,6 +455,31 @@ h2.title-w3 {
 p.sub-text.one {
     text-align: left;
 }
+
+.collapsible {
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	padding: 0px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: transparent;
+  }
+  
+  .content {
+	/* padding: 0 18px; */
+	display: none;
+	overflow: hidden;
+	/* background-color: #f1f1f1; */
+  }
+
+
 .ab-w3-agile-info p {
     font-size:1em;
     letter-spacing:2px;
@@ -583,14 +608,14 @@ p.sub-text.one {
 .caption{
   display:none;	
 }
-.class-grid-img:hover .caption{
+/* .class-grid-img:hover .caption{
 	 display:block;
 	 position:absolute;
 	 top:5%;
 	 left:5%;
 	 z-index:999;
 	 
-}
+} */
 .caption h5{
 	font-size:1em;
 	color:#fff;
@@ -2315,13 +2340,13 @@ section.social ul li {
 	.price-gd-top h4 {                                                                                                                                                                                                     
 		font-size: 1.1em;
 	}
-	.class-grid-img:hover .caption {
+	/* .class-grid-img:hover .caption {
 		display: block;
 		position: absolute;
 		top: 5%;
 		left: 5%;
 		z-index: 999;
-	}
+	} */
 	.modal-content h5 {
 		font-size: 1em;
 	}
@@ -2371,12 +2396,12 @@ section.social ul li {
 		font-size: 1.5em;
 		letter-spacing: 2px;
 	}
-	.class-grid-img:hover .caption {
+	/* .class-grid-img:hover .caption {
 		display: block;
 		position: absolute;
 		top: 5%;
 		left: 5%;
-	}
+	} */
 	.class-grid h4 {
 		font-size: 1em;
 		margin-top: 0;

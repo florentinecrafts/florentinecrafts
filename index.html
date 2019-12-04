@@ -200,15 +200,22 @@
 			</div>
 			<div class="ab-w3-agile-inner">
 				<div class="col-md-6 ab-w3-agile-part">
-					<h4>REUSE RECYCLE REBORN</h4>
-					<p>
-						Florentine Crafts is passionate about sustainable product designs. We can help your company reach your sustainability goals and work together to protect our living planet, Earth.
-					</p>
+					<button type="button" class="collapsible"><h4>REUSE RECYCLE REBORN</h4></button>
+					<div class="content">
+						<p>
+							Florentine Crafts is passionate about sustainable product designs. We can help your company reach your sustainability goals and work together to protect our living planet, Earth.						
+						</p>
+					</div>
 				</div>
+
 				<div class="col-md-6 ab-w3-agile-part two">
-					<h4>HAND CRAFTED PRODUCT</h4>
-					<p>100% Pure Leather Designer Handbags, Portfolios, Backpacks, Wallets, Purses, Clutch & Leather Products for Men & Women. Handcrafted & Finest Quality which is a choice not a coincidence.</p>
-				</div>
+					<button type="button" class="collapsible"><h4>HAND CRAFTED PRODUCT</h4></button>
+					<div class="content">	
+						<p>
+							100% Pure Leather Designer Handbags, Portfolios, Backpacks, Wallets, Purses, Clutch & Leather Products for Men & Women. Handcrafted & Finest Quality which is a choice not a coincidence.
+						</p>
+					</div>
+					</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -243,7 +250,7 @@
 			<p class="sub-text">Success Drivers</p>
 			<div class="wthree-agile-classes-section">
 				<div class="col-md-3 class-grid">
-					<div class="class-grid-img hvr-sweep-to-top">
+					<div class="class-grid-img">
 						<img src="images/foundation/f1.jpg" alt="" />
 							<div class="caption">
 								<h5>
@@ -257,7 +264,7 @@
 					</div>
 					
 					<div class="col-md-3 class-grid">
-						<div class="class-grid-img hvr-sweep-to-top">
+						<div class="class-grid-img">
 							<img src="images/foundation/f2.jpg" alt="" />
 							<div class="caption">
 								<h5>
@@ -275,7 +282,7 @@
 
 					</div>
 					<div class="col-md-3 class-grid">
-						<div class="class-grid-img hvr-sweep-to-top">
+						<div class="class-grid-img">
 							<img src="images/foundation/f3.jpg" alt="" />
 							<div class="caption">
 								<h5>
@@ -295,7 +302,7 @@
 
 					</div>
 					<div class="col-md-3 class-grid lost">
-						<div class="class-grid-img hvr-sweep-to-top">
+						<div class="class-grid-img">
 							<img src="images/foundation/f4.jpg" alt="" />
 							<div class="caption">
 								<h5>
@@ -590,6 +597,17 @@
 				<div class="col-sm-4 team-grid">
 					<!-- normal -->
 					<div class="ih-item circle effect10 bottom_to_top">
+						<div class="img"><img src="images/team/ram.jpg" alt="img" /></div>
+						<div class="info">
+							<h3>R.B. Singh</h3>
+							<h5>FOUNDER & CEO</h5>
+						</div>
+					</div>
+					<!-- end normal -->
+				</div>
+				<div class="col-sm-4 team-grid">
+					<!-- normal -->
+					<div class="ih-item circle effect10 bottom_to_top">
 						<div class="img"><img src="images/team/vishal.jpg" alt="img" /></div>
 						<div class="info">
 							<h3>Vishal Yadav</h3>
@@ -598,17 +616,17 @@
 					</div>
 					<!-- end normal -->
 				</div>
-				<!-- <div class="col-sm-4 team-grid"> -->
+				<div class="col-sm-4 team-grid">
 					<!-- normal -->
-					<!-- <div class="ih-item circle effect10 bottom_to_top">
+					<div class="ih-item circle effect10 bottom_to_top">
 						<div class="img"><img src="images/team/manish.jpg" alt="img" /></div>
 						<div class="info">
 							<h3>Manish Anand</h3>
 							<h5>CTO</h5>
 						</div>
-					</div> -->
+					</div>
 					<!-- end normal -->
-				<!-- </div> -->
+				</div>
 				<div class="col-sm-4 team-grid">
 					<!-- normal -->
 					<div class="ih-item circle effect10 bottom_to_top">
@@ -616,6 +634,17 @@
 						<div class="info">
 							<h3>Vikash Yadav</h3>
 							<h5>DESIGNER</h5>
+						</div>
+					</div>
+					<!-- end normal -->
+				</div>
+				<div class="col-sm-4 team-grid">
+					<!-- normal -->
+					<div class="ih-item circle effect10 bottom_to_top">
+						<div class="img"><img src="images/team/ashok.jpg" alt="img" /></div>
+						<div class="info">
+							<h3>Ashok Tayade</h3>
+							<h5>MERCHANDISING<br/>MANAGER</h5>
 						</div>
 					</div>
 					<!-- end normal -->
@@ -1072,6 +1101,23 @@
 			}
 		}
 	</script>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+			content.style.display = "none";
+		} else {
+			content.style.display = "block";
+		}
+	});
+}
+</script>
 
 </body>
 
