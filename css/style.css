@@ -3,6 +3,18 @@ Author: florentine
 Author URL: http://florentine.com
 --*/
 
+::-webkit-input-placeholder { /* Edge */
+	color: #ffffff;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+	color: #ffffff;
+  }
+  
+  ::placeholder {
+	color: #ffffff;
+  }
+
 .follow-container-div{
 	margin: 0.6em;
 }
@@ -1058,7 +1070,7 @@ h6.bed.four{
 }
 /*-- Contact --*/
 .contact {
-    background: url(../images/contactForm.png)no-repeat 0px 0px;
+    background: url(../images/contactForm.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1096,7 +1108,7 @@ h3.title-w3.con {
     outline: none;
     color: #FFF;
     height: 50px;
-    border: 1px solid #424141;
+    border: 1px solid #E1AD01;
     margin: 0 0 20px;
     background: rgba(239, 235, 235, 0.18);
 	letter-spacing:1px;
@@ -1115,7 +1127,7 @@ h3.title-w3.con {
 	resize: none;
 	color: #FFF;
 	height: 190px;
-	border: 1px solid #424141;
+	border: 1px solid #E1AD01;
     background: rgba(239, 235, 235, 0.18);
 	letter-spacing:1px;
 }
