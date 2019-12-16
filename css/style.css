@@ -3,6 +3,44 @@ Author: florentine
 Author URL: http://florentine.com
 --*/
 
+/* Sticky Notes */
+.callout {
+	position: fixed;
+	bottom: 35px;
+	right: 20px;
+	margin-left: 20px;
+	max-width: 300px;
+	z-index: 99;
+  }
+  
+  .callout-header {
+	padding: 5px 15px;
+	background: #E1AD01;
+	font-size: 15px;
+	color: white;
+  }
+  
+  .callout-container {
+	padding: 15px;
+	background-color: #ccc;
+	color: black
+  }
+  
+  .closebtn {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+  }
+  
+  .closebtn:hover {
+	color: lightgrey;
+  }
+  /* Sticky Notes end */
+  
+
 ::-webkit-input-placeholder { /* Edge */
 	color: #ffffff;
   }
